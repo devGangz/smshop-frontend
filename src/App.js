@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // import Header from './/components/1.Header/Header'
 // import Content from './/components/2.Content/Content'
 // import Footer from './/components/3.Footer/Footer'
-import { Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // import ViewAll from "./components/2.Content/ViewAll"
 import LoginForm from "./components/LoginComponent"
 import { useEffect } from "react"
@@ -36,16 +36,19 @@ function App() {
     return (
 
         <div className="App">
-            <Routes>
-                <Route key={"/"} path='/' exact element={<HomePage />}></Route>
-                <Route path='/login' element={<LoginForm />}></Route>
-                <Route path='/products' element={<ProductsPage />}></Route>
-                <Route path='/products/:idproduct/:nameproduct' element={<ProductInfor />}></Route>
-                <Route path='/cart' element={<AddToCartPage />}></Route>
-                <Route path='/thanhtoan' element={<CheckOutPage />}></Route>
-                <Route path='/ordersuccess' element={<OrderSuccessPage />}></Route>
-                <Route path='/resultsearch' element={<SearchResultPage />}></Route>
-            </Routes>
+            <BrowserRouter basename="/smshop-frontend">
+                <Routes>
+                    <Route exact path='/smshop-frontend' element={<HomePage />}></Route>
+                    <Route path='/login' element={<LoginForm />}></Route>
+                    <Route path='/products' element={<ProductsPage />}></Route>
+                    <Route path='/products/:idproduct/:nameproduct' element={<ProductInfor />}></Route>
+                    <Route path='/cart' element={<AddToCartPage />}></Route>
+                    <Route path='/thanhtoan' element={<CheckOutPage />}></Route>
+                    <Route path='/ordersuccess' element={<OrderSuccessPage />}></Route>
+                    <Route path='/resultsearch' element={<SearchResultPage />}></Route>
+                </Routes>
+            </BrowserRouter>
+
         </div>
     );
 }

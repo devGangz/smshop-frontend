@@ -37,14 +37,14 @@ function App() {
 
         <div className="App">
             <Routes>
-                <Route path='/' exact element={<HomePage />}></Route>
-                <Route path='/login' exact element={<LoginForm />}></Route>
-                <Route path='/products' exact element={<ProductsPage />}></Route>
-                <Route path='/products/:idproduct/:nameproduct' exact element={<ProductInfor />}></Route>
-                <Route path='/cart' exact element={<AddToCartPage />}></Route>
-                <Route path='/thanhtoan' exact element={<CheckOutPage />}></Route>
-                <Route path='/ordersuccess' exact element={<OrderSuccessPage />}></Route>
-                <Route path='/resultsearch' exact element={<SearchResultPage />}></Route>
+                <Route key={"/"} path='/' exact element={<HomePage />}></Route>
+                <Route path='/login' element={<LoginForm />}></Route>
+                <Route path='/products' element={<ProductsPage />}></Route>
+                <Route path='/products/:idproduct/:nameproduct' element={<ProductInfor />}></Route>
+                <Route path='/cart' element={<AddToCartPage />}></Route>
+                <Route path='/thanhtoan' element={<CheckOutPage />}></Route>
+                <Route path='/ordersuccess' element={<OrderSuccessPage />}></Route>
+                <Route path='/resultsearch' element={<SearchResultPage />}></Route>
             </Routes>
         </div>
     );

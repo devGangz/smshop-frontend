@@ -82,7 +82,7 @@ function Header() {
 
 
     const LoginWithGG = () => {
-        window.location.href = "https://devGangz.github.io/smartshop-frontend/login"
+        window.location.href = "/login"
     }
 
     const [anchorE4, setAnchorE4] = useState(null);
@@ -105,7 +105,7 @@ function Header() {
 
             setOpenSnack(!OpenSnack)
         } else {
-            window.location.href = "https://devGangz.github.io/smartshop-frontend/cart"
+            window.location.href = "/cart"
         }
     }
 
@@ -157,7 +157,7 @@ function Header() {
                             unmountOnExit
                         >
                             <nav className="Nav col-sm-12">
-                                <a key={1} href="https://devGangz.github.io/smartshop-frontend">Home</a>
+                                <a key={1} href="/">Home</a>
                                 {/* <a key={2} href="/">Apple</a>
                                 <a key={3} href="/">Samsung</a> */}
                                 < Input onKeyPress={(e) => enterInputValue(e)} id="inputTimkiem" key={4} placeholder="Tìm kiếm" xs={5} md={6}></Input>

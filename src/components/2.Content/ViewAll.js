@@ -100,7 +100,7 @@ function ViewAll() {
                                     <Col className='d-flex justify-content-center'>
                                         <div className='d-flex justify-content-center m-1'>
                                             <Button style={{ fontFamily: "Montserrat", borderRadius: "0", backgroundColor: "#101010" }}
-                                                href={"/smshop-frontend/products" + item._id + "/" + item.name} className='mt-2 mb-2 btn-sm fix-chi-tiet'>Xem</Button>
+                                                href={"/smshop-frontend/products/" + item._id + "/" + item.name} className='mt-2 mb-2 btn-sm fix-chi-tiet'>Xem</Button>
                                         </div>
                                         <div className='d-flex justify-content-center m-1'>
                                             <Button onClick={() => clickAtc(item)}

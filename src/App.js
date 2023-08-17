@@ -36,7 +36,7 @@ function App() {
     return (
 
         <div className="App">
-            <BrowserRouter basename="/smshop-frontend">
+            <BrowserRouter>
                 <Routes>
                     <Route exact path='/smshop-frontend' element={<HomePage />}></Route>
                     <Route path='/login' element={<LoginForm />}></Route>

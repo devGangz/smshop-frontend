@@ -39,7 +39,7 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route exact path='/smshop-frontend' element={<HomePage />}></Route>
-                    <Route path='/login' element={<LoginForm />}></Route>
+                    <Route path='/smshop-frontend/login' element={<LoginForm />}></Route>
                     <Route path='/products' element={<ProductsPage />}></Route>
                     <Route path='/products/:idproduct/:nameproduct' element={<ProductInfor />}></Route>
                     <Route path='/cart' element={<AddToCartPage />}></Route>

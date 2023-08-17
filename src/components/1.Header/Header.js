@@ -82,7 +82,7 @@ function Header() {
 
 
     const LoginWithGG = () => {
-        window.location.href = "/login"
+        window.location.href = "/smshop-frontend/login"
     }
 
     const [anchorE4, setAnchorE4] = useState(null);

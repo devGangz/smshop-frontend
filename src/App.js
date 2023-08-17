@@ -36,18 +36,18 @@ function App() {
     return (
 
         <div className="App">
-            <HashRouter>
-                <Routes>
-                    <Route exact path='/smshop-frontend' element={<HomePage />}></Route>
-                    <Route exact path='/smshop-frontend/login' element={<LoginForm />}></Route>
-                    <Route path='/products' element={<ProductsPage />}></Route>
-                    <Route path='/products/:idproduct/:nameproduct' element={<ProductInfor />}></Route>
-                    <Route path='/cart' element={<AddToCartPage />}></Route>
-                    <Route path='/thanhtoan' element={<CheckOutPage />}></Route>
-                    <Route path='/ordersuccess' element={<OrderSuccessPage />}></Route>
-                    <Route path='/resultsearch' element={<SearchResultPage />}></Route>
-                </Routes>
-            </HashRouter>
+
+            <Routes>
+                <Route exact path='/smshop-frontend' element={<HomePage />}></Route>
+                <Route exact path='/smshop-frontend/login' element={<LoginForm />}></Route>
+                <Route path='/products' element={<ProductsPage />}></Route>
+                <Route path='/products/:idproduct/:nameproduct' element={<ProductInfor />}></Route>
+                <Route path='/cart' element={<AddToCartPage />}></Route>
+                <Route path='/thanhtoan' element={<CheckOutPage />}></Route>
+                <Route path='/ordersuccess' element={<OrderSuccessPage />}></Route>
+                <Route path='/resultsearch' element={<SearchResultPage />}></Route>
+            </Routes>
+
 
 
         </div>

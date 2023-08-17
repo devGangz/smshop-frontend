@@ -157,7 +157,7 @@ function Header() {
                             unmountOnExit
                         >
                             <nav className="Nav col-sm-12">
-                                <a key={1} href="/">Home</a>
+                                <a key={1} href="/smshop-frontend">Home</a>
                                 {/* <a key={2} href="/">Apple</a>
                                 <a key={3} href="/">Samsung</a> */}
                                 < Input onKeyPress={(e) => enterInputValue(e)} id="inputTimkiem" key={4} placeholder="Tìm kiếm" xs={5} md={6}></Input>

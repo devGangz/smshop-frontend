@@ -40,12 +40,12 @@ function App() {
             <Routes>
                 <Route exact path='/smshop-frontend' element={<HomePage />}></Route>
                 <Route exact path='/smshop-frontend/login' element={<LoginForm />}></Route>
-                <Route path='/products' element={<ProductsPage />}></Route>
-                <Route path='/products/:idproduct/:nameproduct' element={<ProductInfor />}></Route>
-                <Route path='/cart' element={<AddToCartPage />}></Route>
-                <Route path='/thanhtoan' element={<CheckOutPage />}></Route>
-                <Route path='/ordersuccess' element={<OrderSuccessPage />}></Route>
-                <Route path='/resultsearch' element={<SearchResultPage />}></Route>
+                <Route exact path='/smshop-frontend/products' element={<ProductsPage />}></Route>
+                <Route exact path='/smshop-frontend/products/:idproduct/:nameproduct' element={<ProductInfor />}></Route>
+                <Route exact path='/smshop-frontend/cart' element={<AddToCartPage />}></Route>
+                <Route exact path='/smshop-frontend/thanhtoan' element={<CheckOutPage />}></Route>
+                <Route exact path='/smshop-frontend/ordersuccess' element={<OrderSuccessPage />}></Route>
+                <Route exact path='/smshop-frontend/resultsearch' element={<SearchResultPage />}></Route>
             </Routes>
 
 

@@ -70,7 +70,7 @@ const SearchResultComponent = () => {
     return (
         <Container className="containerViewAll" style={{ height: "75vh" }} id="marginTopViewAll">
             <Breadcrumbs aria-label="breadcrumb" className="mt-3">
-                <Link underline="hover" color="inherit" href="/products" style={{ fontFamily: "Montserrat" }}>
+                <Link underline="hover" color="inherit" href="/smshop-frontend/products" style={{ fontFamily: "Montserrat" }}>
                     Tất cả sản phẩm
                 </Link>
                 <Typography color="text.primary" style={{ fontFamily: "Montserrat" }}>Kết quả tìm kiếm</Typography><a href="/" style={{ fontFamily: "Montserrat" }}>Back</a>
@@ -100,7 +100,7 @@ const SearchResultComponent = () => {
                                     <Col className='d-flex justify-content-center'>
                                         <div className='d-flex justify-content-center m-1'>
                                             <Button style={{ fontFamily: "Montserrat", borderRadius: "0", backgroundColor: "#101010" }}
-                                                href={"/products/" + item._id + "/" + item.name} className='mt-2 mb-2 btn-sm fix-chi-tiet'>Xem</Button>
+                                                href={"/smshop-frontend/products/" + item._id + "/" + item.name} className='mt-2 mb-2 btn-sm fix-chi-tiet'>Xem</Button>
                                         </div>
                                         <div className='d-flex justify-content-center m-1'>
                                             <Button onClick={() => clickAtc(item)}

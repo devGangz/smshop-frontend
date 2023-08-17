@@ -32,7 +32,7 @@ function LoginForm() {
             .then((result) => {
                 // console.log(result);
                 setUser(result.user)
-                window.location.href = "/"
+                window.location.href = "/smshop-frontend"
             })
             .catch((error) => {
                 // console.log(error);

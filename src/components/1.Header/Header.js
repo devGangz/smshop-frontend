@@ -105,7 +105,7 @@ function Header() {
 
             setOpenSnack(!OpenSnack)
         } else {
-            window.location.href = "/cart"
+            window.location.href = "/smshop-frontend/cart"
         }
     }
 
@@ -130,7 +130,7 @@ function Header() {
             console.log("GGGG", listProductSearch);
             localStorage.setItem("productsResult", JSON.stringify(listProductSearch))
             console.log("DD", listProductSearch);
-            window.location.href = "./resultsearch"
+            window.location.href = "/smshop-frontend/resultsearch"
         } else { }
     }, [SearchOK])
 

@@ -175,7 +175,7 @@ const ProductInfor = () => {
                                                 </Col>
                                             </div>
                                             <div className='d-flex justify-content-center mb-2'>
-                                                <Button href={"/products/" + item._id + "/" + item.name}
+                                                <Button href={"/smshop-frontend/products/" + item._id + "/" + item.name}
                                                     style={{ fontFamily: "Montserrat", borderRadius: "0", backgroundColor: "#101010" }}
                                                     className='mt-2 mb-2 btn-sm fix-chi-tiet'>Xem
                                                 </Button>

@@ -143,7 +143,7 @@ const CheckOutComponent = () => {
         if (datHangThanhCong) {
             localStorage.setItem("dataVoucher", JSON.stringify([]))
             localStorage.setItem("products", JSON.stringify([]))
-            window.location.href = "/ordersuccess"
+            window.location.href = "/smshop-frontend/ordersuccess"
         }
     }, [datHangThanhCong])
 
@@ -155,10 +155,10 @@ const CheckOutComponent = () => {
                 {/* <Link underline="hover" color="inherit" href="/">
                     Trang chủ
                 </Link> */}
-                <Link underline="hover" color="inherit" href="/products">
+                <Link underline="hover" color="inherit" href="/smshop-frontend/products">
                     Tất cả sản phẩm
                 </Link>
-                <Link underline="hover" color="inherit" href="/cart">
+                <Link underline="hover" color="inherit" href="/smshop-frontend/cart">
                     Giỏ hàng
                 </Link>
                 <Typography color="text.primary"><b>Trang thanh toán</b></Typography>

@@ -2,15 +2,15 @@
 const siteProps = [
     {
         name: "Trang chủ",
-        url: "/"
+        url: "/smshop-frontend/"
     },
     {
         name: "Tất cả sản phẩm",
-        url: "/products"
+        url: "/smshop-frontend/products"
     },
     {
         name: "Giỏ hàng",
-        url: "/cart"
+        url: "/smshop-frontend/cart"
     }
 ]
 

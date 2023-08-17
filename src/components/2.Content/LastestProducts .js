@@ -107,7 +107,7 @@ const LastestProducts = () => {
                                             </Col>
                                         </div>
                                         <div className='d-flex justify-content-center mb-3'>
-                                            <Button href={"/products/" + item._id + "/" + item.name}
+                                            <Button href={"/smshop-frontend/products/" + item._id + "/" + item.name}
                                                 style={{ fontFamily: "Montserrat", borderRadius: "0", backgroundColor: "#101010" }}
                                                 className='mt-2 mb-2 btn-sm fix-chi-tiet'>Xem
                                             </Button>
@@ -126,7 +126,7 @@ const LastestProducts = () => {
                                 })}
                             </Carousel>
                         </Container>
-                        <a href="/products" ><h6 style={{ fontFamily: "Montserrat", color: "gray" }}><ins>Xem tất cả</ins></h6></a>
+                        <a href="/smshop-frontend/products" ><h6 style={{ fontFamily: "Montserrat", color: "gray" }}><ins>Xem tất cả</ins></h6></a>
                         <Col className="d-flex justify-content-center mt-5">
                             <h1 style={{ fontFamily: "Montserrat" }}><b>Tekzone</b></h1>
                         </Col>

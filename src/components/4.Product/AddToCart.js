@@ -179,7 +179,7 @@ const AddToCart = (ArrProduct) => {
     const [alertInfor, setAlertInfor] = useState(true)
 
     const clickProced = () => {
-        window.location.href = "/thanhtoan"
+        window.location.href = "/smshop-frontend/thanhtoan"
     }
 
     useEffect(() => {
@@ -199,7 +199,7 @@ const AddToCart = (ArrProduct) => {
                 <Link underline="hover" color="inherit" href="/">
                     Trang chủ
                 </Link>
-                <Link underline="hover" color="inherit" href="/products">
+                <Link underline="hover" color="inherit" href="/smshop-frontend/products">
                     Tất cả sản phẩm
                 </Link>
                 <Typography color="text.primary"><b>Trang giỏ hàng</b></Typography>
@@ -237,7 +237,7 @@ const AddToCart = (ArrProduct) => {
 
             <Container className="d-flex justify-content-around">
                 <Col className="text-start">
-                    <h6 className="fontsizeCart" type="button"><a href="/products" style={{ color: "gray", textDecorationLine: "none", fontFamily: "Montserrat" }}>Tiếp tục mua sắm</a></h6>
+                    <h6 className="fontsizeCart" type="button"><a href="/smshop-frontend/products" style={{ color: "gray", textDecorationLine: "none", fontFamily: "Montserrat" }}>Tiếp tục mua sắm</a></h6>
                 </Col>
                 <Col className="text-end">
                     <h6 className="fontsizeCart" onClick={() => clickUpdate(filteredArr)} style={{ color: "gray", fontFamily: "Montserrat" }} type="button">Cập nhật giỏ hàng</h6>

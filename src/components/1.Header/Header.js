@@ -172,8 +172,8 @@ function Header() {
                                         }}
                                     ><NumberSL /></i>
                                     <Snackbar open={OpenSnack} autoHideDuration={5000} onClose={handleClose}>
-                                        <Alert id="alertEmptyCart" onClose={handleClose} severity="warning" sx={{ width: "100%" }}>
-                                            Giỏ hàng trống
+                                        <Alert id="alertEmptyCart" onClose={handleClose} severity="warning" sx={{ width: "50%" }}>
+                                            Cart is empty!
                                         </Alert>
                                     </Snackbar>
                                 </Stack>

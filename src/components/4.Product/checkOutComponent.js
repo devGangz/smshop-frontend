@@ -275,7 +275,7 @@ const CheckOutComponent = () => {
                         >Đặt hàng</Button>
                         <Snackbar open={OpenSnack} autoHideDuration={1000} onClose={handleClose}>
                             <Alert onClose={handleClose} severity="error" sx={{ width: "100%" }}>
-                                Kiểm tra lại thông tin đã nhập
+                                Please recheck your filled again!
                             </Alert>
                         </Snackbar>
                     </Stack>

@@ -196,7 +196,7 @@ const AddToCart = (ArrProduct) => {
     return (
         <Container xs={12} style={{ marginTop: "120px", marginBottom: "370px" }}>
             <Breadcrumbs aria-label="breadcrumb" className="mt-5 mb-3">
-                <Link underline="hover" color="inherit" href="/">
+                <Link underline="hover" color="inherit" href="/smshop-frontend">
                     Trang chủ
                 </Link>
                 <Link underline="hover" color="inherit" href="/smshop-frontend/products">

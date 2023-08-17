@@ -73,7 +73,7 @@ const SearchResultComponent = () => {
                 <Link underline="hover" color="inherit" href="/smshop-frontend/products" style={{ fontFamily: "Montserrat" }}>
                     Tất cả sản phẩm
                 </Link>
-                <Typography color="text.primary" style={{ fontFamily: "Montserrat" }}>Kết quả tìm kiếm</Typography><a href="/" style={{ fontFamily: "Montserrat" }}>Back</a>
+                <Typography color="text.primary" style={{ fontFamily: "Montserrat" }}>Kết quả tìm kiếm</Typography><a href="/smshop-frontend" style={{ fontFamily: "Montserrat" }}>Back</a>
             </Breadcrumbs>
             {/* {
                 callApiSuccess ? <ProductFilter></ProductFilter> : []

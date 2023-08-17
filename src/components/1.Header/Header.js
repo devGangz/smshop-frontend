@@ -64,7 +64,7 @@ function Header() {
         signOut(auth)
             .then(() => {
                 setUser(null)
-                window.location.href = "/"
+                window.location.href = "/smshop-frontend"
             })
             .catch((error) => {
                 console.log(error);

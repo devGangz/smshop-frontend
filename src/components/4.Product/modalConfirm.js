@@ -141,7 +141,7 @@ const ConfirmModal = () => {
                 <ModalFooter>
                     <Button disabled={showResult} style={{ maxHeight: "36px", maxWidth: "90px" }} className='btn btn-info' onClick={clickContinueModal}>Continue</Button>
                     {showResult ?
-                        <Button href="/" style={{ maxHeight: "36px", maxWidth: "80px" }} className='btn btn-dark' onClick={clickOffModal}>Dismiss</Button>
+                        <Button href="/smshop-frontend" style={{ maxHeight: "36px", maxWidth: "80px" }} className='btn btn-dark' onClick={clickOffModal}>Dismiss</Button>
                         :
                         <Button style={{ maxHeight: "36px", maxWidth: "80px" }} className='btn btn-dark' onClick={clickOffModal}>Dismiss</Button>
                     }

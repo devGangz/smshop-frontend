@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 // import Header from './/components/1.Header/Header'
 // import Content from './/components/2.Content/Content'
 // import Footer from './/components/3.Footer/Footer'
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 // import ViewAll from "./components/2.Content/ViewAll"
 import LoginForm from "./components/LoginComponent"
 import { useEffect } from "react"
@@ -37,18 +37,16 @@ function App() {
     return (
 
         <div className="App">
-            <HashRouter>
-                <Routes>
-                    <Route path='/' exact element={<HomePage />}></Route>
-                    <Route path='/login' exact element={<LoginForm />}></Route>
-                    <Route path='/products' exact element={<ProductsPage />}></Route>
-                    <Route path='/products/:idproduct/:nameproduct' exact element={<ProductInfor />}></Route>
-                    <Route path='/cart' exact element={<AddToCartPage />}></Route>
-                    <Route path='/thanhtoan' exact element={<CheckOutPage />}></Route>
-                    <Route path='/ordersuccess' exact element={<OrderSuccessPage />}></Route>
-                    <Route path='/resultsearch' exact element={<SearchResultPage />}></Route>
-                </Routes>
-            </HashRouter>
+            <Routes>
+                <Route path='/' exact element={<HomePage />}></Route>
+                <Route path='/login' exact element={<LoginForm />}></Route>
+                <Route path='/products' exact element={<ProductsPage />}></Route>
+                <Route path='/products/:idproduct/:nameproduct' exact element={<ProductInfor />}></Route>
+                <Route path='/cart' exact element={<AddToCartPage />}></Route>
+                <Route path='/thanhtoan' exact element={<CheckOutPage />}></Route>
+                <Route path='/ordersuccess' exact element={<OrderSuccessPage />}></Route>
+                <Route path='/resultsearch' exact element={<SearchResultPage />}></Route>
+            </Routes>
         </div>
     );
 }

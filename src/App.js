@@ -36,7 +36,7 @@ function App() {
     return (
 
         <div className="App">
-            <HashRouter basename="/App">
+            <HashRouter>
                 <Routes>
                     <Route exact path='/smshop-frontend' element={<HomePage />}></Route>
                     <Route exact path='/smshop-frontend/login' element={<LoginForm />}></Route>

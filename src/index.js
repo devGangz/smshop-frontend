@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename='/smshop-frontend'>
+    <BrowserRouter basename='/'>
       <Provider store={store}>
         <App />
       </Provider>

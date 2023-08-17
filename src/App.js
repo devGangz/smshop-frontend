@@ -10,7 +10,6 @@ import ProductInfor from "./components/4.Product/ProductInfor"
 import AddToCart from "./components/4.Product/AddToCart"
 import WebFont from "webfontloader"
 
-
 import HomePage from "./page/homepage"
 import ProductsPage from "./page/products"
 
